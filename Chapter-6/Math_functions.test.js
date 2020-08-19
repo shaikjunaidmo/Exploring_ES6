@@ -1,0 +1,47 @@
+const func = require("./Math_functions");
+describe("checking the math functions upon the array of numbers", () => {
+  it("should return as correct values", () => {
+    expect(func([-8, 0, NaN, Infinity, -Infinity, 3.9, 8, 100])).toEqual([
+      -1,
+      -8,
+      -2,
+      NaN,
+      NaN,
+      0,
+      0,
+      0,
+      -Infinity,
+      -Infinity,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      1,
+      Infinity,
+      Infinity,
+      Infinity,
+      Infinity,
+      -1,
+      -Infinity,
+      -Infinity,
+      NaN,
+      NaN,
+      1,
+      3,
+      1.5740609166314434,
+      1.9634741239748859,
+      0.5910646070264992,
+      1,
+      8,
+      2,
+      3,
+      0.9030899869919435,
+      1,
+      100,
+      4.641588833612779,
+      6.643856189774724,
+      2
+    ]);
+  });
+});
