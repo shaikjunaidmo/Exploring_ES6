@@ -1,0 +1,23 @@
+{
+  "name": "Exploring_ES6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikjunaidmo/Exploring_ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaikjunaidmo/Exploring_ES6/issues"
+  },
+  "homepage": "https://github.com/shaikjunaidmo/Exploring_ES6#readme",
+  "devDependencies": {
+    "jest": "^26.4.0"
+  }
+}
