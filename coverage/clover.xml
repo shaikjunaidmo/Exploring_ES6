@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597929375010" clover="3.2.0">
-  <project timestamp="1597929375011" name="All files">
-    <metrics statements="110" coveredstatements="110" conditionals="7" coveredconditionals="6" methods="28" coveredmethods="28" elements="145" coveredelements="144" complexity="0" loc="110" ncloc="110" packages="6" files="12" classes="12"/>
+<coverage generated="1597989716928" clover="3.2.0">
+  <project timestamp="1597989716929" name="All files">
+    <metrics statements="141" coveredstatements="141" conditionals="20" coveredconditionals="15" methods="33" coveredmethods="33" elements="194" coveredelements="189" complexity="0" loc="141" ncloc="141" packages="6" files="15" classes="15"/>
     <package name="Chapter-10">
       <metrics statements="31" coveredstatements="31" conditionals="3" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="Parameter_scope.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-10/Parameter_scope.js">
@@ -46,7 +46,26 @@
       </file>
     </package>
     <package name="Chapter-11">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="43" coveredstatements="43" conditionals="13" coveredconditionals="9" methods="9" coveredmethods="9"/>
+      <file name="Default_patterns.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-11/Default_patterns.js">
+        <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
       <file name="Destructuring_types.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-11/Destructuring_types.js">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
@@ -61,6 +80,27 @@
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="Symbol_destructuring.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-11/Symbol_destructuring.js">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="nested_patterns.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-11/nested_patterns.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter-6">

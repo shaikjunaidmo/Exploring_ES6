@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for Chapter-6/Math_functions.js</title>
+    <title>Code coverage report for Chapter-11/Default_patterns.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">Chapter-6</a> Math_functions.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">Chapter-11</a> Default_patterns.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -30,16 +30,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">66.67% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>8/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
@@ -77,46 +77,52 @@
 <a name='L18'></a><a href='#L18'>18</a>
 <a name='L19'></a><a href='#L19'>19</a>
 <a name='L20'></a><a href='#L20'>20</a>
-<a name='L21'></a><a href='#L21'>21</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const mathFunctions = number =&gt; {
-  res = [];
-  for (let x of number) {
-    console.log(`sign of ${x} :`, Math.sign(x));
-    res.push(Math.sign(x));
-    console.log(`rounding of ${x} :`, Math.trunc(x));
-    res.push(Math.trunc(x));
-    console.log(`cube root of ${x} :`, Math.cbrt(x));
-    res.push(Math.cbrt(x));
-    console.log(`log base 2 of ${x} :`, Math.log2(x));
-    res.push(Math.log2(x));
-    console.log(`log base 10 of ${x} :`, Math.log10(x));
-    res.push(Math.log10(x));
-  }
-  return res;
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const defaultObject = () =&gt; {
+  let { prop: y = 2 } = { prop: undefined };
+  let { prop: x = 10 } = { prop1: 11, prop2: 10 };
+  return `x : ${x} , y : ${y}`;
 };
 &nbsp;
-mathFunctions([-8, 0, NaN, Infinity, -Infinity, 3.9, 8, 100]);
+const defaultArray = () =&gt; {
+  let [x, y, z, def = "IT"] = ["CSE", "ECE", "EEE"]; // DEF = 'IT'
+  let [a = <span class="branch-0 cbranch-no" title="branch not covered" >3,</span> b] = [4]; /// a = 4 and b = undefined
+  let [c = 3, d = c] = []; // c=3; d=3
+  let [e = <span class="branch-0 cbranch-no" title="branch not covered" >3,</span> f = e] = [7]; // e=7; f=7
+  let [g = <span class="branch-0 cbranch-no" title="branch not covered" >3,</span> h = <span class="branch-0 cbranch-no" title="branch not covered" >g]</span> = [7, 2]; // g=7; h=2
+  return `def : ${def}, a : ${a} , b : ${b}, c : ${c} ,d : ${d}, e : ${e} ,f : ${f},g : ${g} , h: ${h}`;
+};
 &nbsp;
-module.exports = mathFunctions;
+const nestedPatterns = () =&gt; {
+  let [{ property: number } = { property: 123 }] = [];
+  let [{ property_1: number_1 = 234 }] = [{}];
+  return `number : ${number} , number_1 : ${number_1}`;
+};
+&nbsp;
+module.exports = { defaultObject, defaultArray, nestedPatterns };
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
