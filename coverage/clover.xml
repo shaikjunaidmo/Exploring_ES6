@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597989716928" clover="3.2.0">
-  <project timestamp="1597989716929" name="All files">
-    <metrics statements="141" coveredstatements="141" conditionals="20" coveredconditionals="15" methods="33" coveredmethods="33" elements="194" coveredelements="189" complexity="0" loc="141" ncloc="141" packages="6" files="15" classes="15"/>
+<coverage generated="1598010362720" clover="3.2.0">
+  <project timestamp="1598010362720" name="All files">
+    <metrics statements="158" coveredstatements="158" conditionals="20" coveredconditionals="15" methods="36" coveredmethods="36" elements="214" coveredelements="209" complexity="0" loc="158" ncloc="158" packages="8" files="17" classes="17"/>
     <package name="Chapter-10">
       <metrics statements="31" coveredstatements="31" conditionals="3" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="Parameter_scope.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-10/Parameter_scope.js">
@@ -101,6 +101,35 @@
         <line num="17" count="2" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter-13">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="arrowfunc_this.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-13/arrowfunc_this.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter-15">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Object_assign.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-15/Object_assign.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter-6">
