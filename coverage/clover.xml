@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598010362720" clover="3.2.0">
-  <project timestamp="1598010362720" name="All files">
-    <metrics statements="158" coveredstatements="158" conditionals="20" coveredconditionals="15" methods="36" coveredmethods="36" elements="214" coveredelements="209" complexity="0" loc="158" ncloc="158" packages="8" files="17" classes="17"/>
+<coverage generated="1598268328229" clover="3.2.0">
+  <project timestamp="1598268328229" name="All files">
+    <metrics statements="174" coveredstatements="174" conditionals="20" coveredconditionals="15" methods="43" coveredmethods="43" elements="237" coveredelements="232" complexity="0" loc="174" ncloc="174" packages="9" files="19" classes="19"/>
     <package name="Chapter-10">
       <metrics statements="31" coveredstatements="31" conditionals="3" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="Parameter_scope.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-10/Parameter_scope.js">
@@ -118,18 +118,43 @@
       </file>
     </package>
     <package name="Chapter-15">
-      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Object_assign.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-15/Object_assign.js">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter-16">
+      <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="generator_method.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-16/generator_method.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="subclass.js" path="/Users/Junaid/Downloads/Full 2nd Book/Exploring_ES6/Chapter-16/subclass.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter-6">
